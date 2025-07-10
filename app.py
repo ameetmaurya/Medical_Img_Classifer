@@ -23,7 +23,7 @@ input_shape = model.input_shape[1:3]
 st.write(f"🔍 Model expects images of shape: {input_shape}")
 
 # UI
-st.title("🩺 Medical X-ray Classifier (Demo)")
+st.title("🩺 Medical X-ray Classifier")
 
 uploaded_file = st.file_uploader("Upload a chest X-ray image", type=["jpg", "jpeg", "png"])
 
